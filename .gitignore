@@ -1,0 +1,16 @@
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.dex
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.so
+captures/
+.externalNativeBuild/
+.cxx/
+**/outputs/
+**/intermediates/
+**/generated/
