@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon foreground — 108×108dp canvas, content within the inner 72dp safe zone.
+    Design: wing silhouette (white) + three NFC signal arcs (blue).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--
+        Wing mark — forward-swept wing silhouette.
+        Leading edge sweeps from tips (22,58) and (86,58) up to the apex (54,24).
+        Trailing edge returns through the center (54,46), giving the wing its chord.
+    -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 22,58 C 31,37 45,24 54,24 C 63,24 77,37 86,58 C 77,46 63,46 54,46 C 45,46 31,46 22,58 Z" />
+
+    <!--
+        NFC signal arcs — three concentric upward-opening arcs below the wing,
+        evoking NFC/wireless signal radiating from the tag writer.
+        Centered at (54, 84); arcs open upward (counterclockwise sweep).
+    -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3B6FCC"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 48,84 A 6,6 0 0 0 60,84" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3B6FCC"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 42,84 A 12,12 0 0 0 66,84" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3B6FCC"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 36,84 A 18,18 0 0 0 72,84" />
+
+</vector>
